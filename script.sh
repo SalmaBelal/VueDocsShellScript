@@ -11,7 +11,6 @@ if [ ${#mdfiles[@]} -eq 0 ]; then
     return
 fi
 
-
 directories=(*/)
 if [ ${directories[@]} = "*/" ]; then
     directories=()
